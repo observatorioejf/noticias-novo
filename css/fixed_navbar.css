@@ -1,0 +1,95 @@
+.header-frontend .navbar-header {
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.navbar-brand span {
+    color: #f25f5b;
+}
+
+.header-frontend .navbar-collapse ul.navbar-nav {
+    float: right;
+    margin-right: 0;
+}
+
+.header-frontend .navbar-default {
+    background-color: #fff;
+}
+
+.horizontal-menu {
+    margin-top: 10px;
+}
+
+/*.header-frontend .nav li a, .header-frontend .nav li.active ul.dropdown-menu li a {*/
+/*color: #999;*/
+/*font-size: 14px;*/
+/*font-weight: 300;*/
+/*background: none;*/
+/*}*/
+
+.header-frontend .nav li a:hover,
+.header-frontend .nav li a:focus,
+.header-frontend .nav li.active a,
+.header-frontend .nav li.active a:hover,
+.header-frontend .nav li a.dropdown-toggle:hover,
+.header-frontend .nav li a.dropdown-toggle:focus,
+.header-frontend .nav li.active ul.dropdown-menu li a:hover,
+.header-frontend .nav li.active ul.dropdown-menu li.active a {
+    color: #fff;
+    background-color: #f77b6f;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.header-frontend .navbar-default .navbar-nav > .open > a,
+.header-frontend .navbar-default .navbar-nav > .open > a:hover,
+.header-frontend .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #f77b6f;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.header-frontend .navbar {
+    min-height: 100px;
+}
+
+/*.header-frontend .navbar-nav > li  {*/
+/*padding-bottom: 30px;*/
+/*padding-top: 30px;*/
+/*}*/
+
+.header-frontend .navbar-nav > li > a {
+    padding-bottom: 6px;
+    padding-top: 5px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 2px;
+    line-height: 30px;
+
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.dropdown-menu li a:hover {
+    color: #fff !important;
+}
+
+.header-frontend .nav .caret {
+    border-bottom-color: #999;
+    border-top-color: #999;
+}
+
+.dropdown-menu {
+    box-shadow: none;
+    border-radius: 0;
+}
